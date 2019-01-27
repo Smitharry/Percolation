@@ -66,22 +66,8 @@ public class Percolation {
     }
 
     public boolean isOpen(int row, int col) {
-
         int index = getIndex(row, col) - 1;
-
         return siteIsOpen[index];
-
     }
-/*    public boolean isFull(int row, int col)  // is site (row, col) full?
-    public     int numberOfOpenSites()       // number of open sites
-    public boolean percolates()              // does the system percolate?
-
-*/
 }
 
-class Demo {
-      //  DON'T FORGET TO CHANGE THE LOCATION OF MAIN
-      public static void main(String[] args) {
-
-      }
-  }
